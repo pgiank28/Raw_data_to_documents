@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(1,'..')
 
-import toDoc
+import tableToDocument.oDoc
 import random
 import pandas as pd
 

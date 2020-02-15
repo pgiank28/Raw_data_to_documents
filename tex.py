@@ -1,4 +1,4 @@
-import toDoc
+import tableToDocument.toDoc as tdDoc
 import pandas as pd
 
 supportedFormats=['tex']

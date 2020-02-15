@@ -2,7 +2,7 @@ from chardet import detect
 from xml.etree import ElementTree as ET
 from enum import Enum
 import pandas as pd
-import toDoc
+import tableToDocument.toDoc as toDoc
 import zipfile
 import os
 

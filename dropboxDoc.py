@@ -1,1 +1,1 @@
-import toDoc
+import tableToDocument.toDoc as toDoc

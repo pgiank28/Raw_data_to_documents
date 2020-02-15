@@ -1,4 +1,4 @@
-import toDoc
+import tableToDocument.toDoc as toDoc
 import PyPDF2
 
 def write(toPdf):

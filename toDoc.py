@@ -1,10 +1,10 @@
 import os
-import word
-import excel
-import pdf
-import tex
-import googleDoc
-import dropboxDoc
+import tableToDocument.word as word
+import tableToDocument.excel as excel
+import tableToDocument.pdf as pdf
+import tableToDocument.tex as tex
+import tableToDocument.googleDoc as googleDoc
+import tableToDocument.dropboxDoc as dropboxDoc
 import locale
 
 supportedEncodings = ['ascii','utf-8','latin-1']
