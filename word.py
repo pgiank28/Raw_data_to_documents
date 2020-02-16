@@ -163,7 +163,7 @@ class toXML:
                             if c2.attrib[ns3+'name']=='TAB1':
                                 continue
                             ET.SubElement(ET.SubElement(c2,ns3+'table-cell',tcCell),ns6+'p',tcP).text = str(keys[i])
-                            ET.SubElement(ET.SubElement(c2,ns3+'table-cell',tcCell),ns6+'p',tcP).text = str(keys[i])
+                            ET.SubElement(ET.SubElement(c2,ns3+'table-cell',tcCell),ns6+'p',tcP).text = str(vals[i])
                             i=i+1
 
     def fromSet(self,st,line):
