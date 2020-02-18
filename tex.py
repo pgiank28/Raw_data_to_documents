@@ -1,4 +1,4 @@
-import tableToDocument.toDoc as tdDoc
+import tableToDocument.toDoc as toDoc
 import pandas as pd
 
 supportedFormats=['tex']
@@ -17,7 +17,7 @@ def write(tx):
     if toDoc.validFlag(tx.flag) == False:
         return 4
 
-    with open('../example.tex',"r") as f:
+    with open(tx.path,"r") as f:
         x = f.read()
     f.close()
 
@@ -43,7 +43,7 @@ def write(tx):
         final = appendToTex(x,tx.flag,createTableFromSeries(tx.dataType))
 
 
-    with open('../example.tex',"w") as g:
+    with open(tx.path,"w") as g:
         g.write(final)
     g.close()
 
