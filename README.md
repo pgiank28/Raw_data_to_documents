@@ -1,8 +1,9 @@
-# tableToDocument
+# Raw data to documents
 
-Python library for easily writing python data to human readeble documents.Current supported
-python data types are  `str, int,list,dictionary,set,pandas series` and `pandas Dataframe`.
-Current supported file formats for writing are `.doc,.docx,.odt` and `.tex`.
+Python library for easily writing python data to human readable documents.It can write huge datasets directly to human readable documents.
+It supports writing in any line of the document,with several different fonts.
+Currently supported python data types are  `str, int,list,dictionary,set,pandas series` and `pandas Dataframe`.
+Currently supported file formats for writing are `.doc,.docx,.odt` and `.tex`.
 
 ## Installation
 
